@@ -46,14 +46,13 @@ burning_toast_soc/
 - `main.py` — entry point
 
 ## วิธีรัน
-
-1. ติดตั้ง dependency:
+1.โหลดไฟล์จาก Github นี้มา
+2. ติดตั้ง dependency:
    `pip install -r requirements.txt`
-2. วาง `burningToast.ico` ไว้ข้าง `main.py` ได้ (ถ้าไม่มี โปรแกรมยังใช้ fallback icon)
 3. รัน:
    `python main.py`
 
-ไฟล์ settings ยังคงใช้ชื่อ `skeleton_settings.json` ตามโปรแกรมเดิม
+ไฟล์ settings ยังคงใช้ชื่อ `skeleton_settings.json` 
 
 ## หมายเหตุ
 

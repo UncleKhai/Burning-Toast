@@ -1,6 +1,6 @@
-# Burning Toast — Separation of Concerns Refactor
+# Burning Toast
 
-โครงสร้างนี้แยกไฟล์จาก `runningSkeleton - Copy (11) - Copy.py` ตามหลัก Separation of Concerns (SoC)
+โครงสร้างไฟล์
 
 ```text
 burning_toast_soc/

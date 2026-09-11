@@ -53,7 +53,7 @@ burning_toast_soc/
 3. รัน:
    `python main.py`
 
-ไฟล์ settings ยังคงใช้ชื่อ `skeleton_settings.json` ตามโปรแกรมเดิม
+ไฟล์ settings ยังคงใช้ชื่อ `skeleton_settings.json` 
 
 ## หมายเหตุ
 

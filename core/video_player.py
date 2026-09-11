@@ -67,6 +67,14 @@ class VideoPlayer:
 
         self.win.attributes("-alpha", self.target_alpha)
 
+        self.win.update_idletasks() 
+        try:
+            hwnd = ctypes.windll.user32.GetParent(self.win.winfo_id())
+            style = ctypes.windll.user32.GetWindowLongW(hwnd, -20) #
+            ctypes.windll.user32.SetWindowLongW(hwnd, -20, style | 0x08080020)
+        except Exception: #[cite: 14]
+            pass
+
         sw, sh = self.win.winfo_screenwidth(), self.win.winfo_screenheight()
         scale = float(self.config.get("vid_scale", 100.0)) / 100.0
         orig_w = self.cap.get(cv2.CAP_PROP_FRAME_WIDTH) or 640
